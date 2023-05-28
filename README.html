@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Website Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+    /* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #d3d0d0;
+  padding: 20px;
+}
+header::before{
+  background: url(https://images.pexels.com/photos/2468339/pexels-photo-2468339.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat center center/cover;
+            content:'';
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: 0.5;
+
+}
+
+
+.logo {
+  float: left;
+}
+
+v-links {
+  float: right;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+.na
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-text {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #ff5e14;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* About section styles */
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.about-text {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  width: 200px;
+    height: 250px;
+    padding: 2px 29px;;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.section2 h1{
+  text-align: center;
+  padding: 2px 4px;
+}
+.section2{
+  padding-right: 300px;
+  padding-left: 300px;
+  
+}
+.box{
+  border:2px solid black;
+  margin:12px 32px;
+  text-align: center;
+  width:390px;
+  height:180px;
+  padding: 2px;
+  background-color: #9c9999;
+  
+}
+.box ul{
+  list-style-type: none;
+}
+.box ul li{
+  padding: 2px;
+}
+.boxesflex{
+  display: flex;
+  margin: 18px;
+  
+  
+}
+.btn{
+  background-color: #333;
+  color: #fff;
+  font-size: 15px;
+}
+.harsh{
+  font-size: 1.2rem;
+  font-weight:bolder;
+}
+
+
+
+</style>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>harshFit</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        
+      </ul>
+      
+    </nav>
+
+    <div class="hero-text">
+      <h1>Get Fit and Stay Healthy</h1>
+      <p>Join our gym today and transform your body!</p>
+      <a href="#" class="cta-btn">Join Now</a>
+    </div>
+  </header>
+
+  <section class="about-section">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque eligendi, est amet officiis atque consequuntur aut nobis rem accusamus dignissimos, saepe expedita et facere corporis, cupiditate voluptatibus recusandae modi possimus voluptas cum perspiciatis!......thankyou</p>
+      </div>
+    <div class="about-image">
+      <img src="https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=600">
+    </div>
+  </section>
+  <hr>
+  <section class="section2">
+    <h1 class="text center">PRICING</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex ducimus commodi sint laudantium quam, magni cumque nulla qui ullam ipsum minima est recusandae veniam quibusdam et fuga culpa porrodipisicing elit. Ex dolorum a nobis odio perferendis, harum excepturi quaerat </p>
+  </section>
+  <div class=" boxesflex">
+   
+    <div class="box">
+      <h2>free</h2>
+      <hr>
+      <ul>
+        <li class="harsh">0$/month</li>
+        <li>10 user included</li>
+        <li>2 GB of storeage</li>
+        <li>Email support</li>
+        <li>Help center access</li>
+        <li><button class="btn">signup for free</button></li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Pro</h2>
+      <hr>
+      <ul>
+        <li class="harsh">20$/month</li>
+        <li>30 user included</li>
+        <li>20 GB of storeage</li>
+        <li>Email support</li>
+        <li>Help center access</li>
+        <li><button class="btn">signup for Pro</button></li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Enterprice</h2>
+      <hr>
+      <ul>
+        <li class="harsh">50$/month</li>
+        <li>40 user included</li>
+        <li>25 GB of storeage</li>
+        <li>Email support</li>
+        <li>Help center access</li>
+        <li><button class="btn">signup for enterprice</button></li>
+      </ul>
+    </div>
+
+
+  </div>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2023 GymFit. All rights reserved.</p>
+  </footer>
+</body>
+</html>
